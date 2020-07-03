@@ -14,4 +14,4 @@ or for the combined data:
 
 3. Output will be written to txt files as "model_predict_test.txt" or "model_predict_train.txt" and/or "CV_predict.txt"
 
-Additiona questions please contact Victor Fung at fungv(at)ornl.gov
+Additional questions please contact Victor Fung at fungv(at)ornl.gov
