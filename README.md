@@ -7,9 +7,9 @@ Several demo input files containing DOS from data described in the paper is uplo
 
 1. Unpack the input file containing the DOS and energies:
   tar -xvf "file.tar.gz" \
-or for the combined data:\
-  cat Combined_data.tar.gz.split* > Combined_data.tar.gz\
-  tar -xvf Combined_data.tar.gz\
+or for the combined data: \
+  cat Combined_data.tar.gz.split* > Combined_data.tar.gz \
+  tar -xvf Combined_data.tar.gz \
 
 2. Run DOSnet for a particular adsorbate by changing the filename in line 32 of Demo.py, or specifying the code to run the combined case. 
 
