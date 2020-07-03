@@ -1,1 +1,6 @@
 CH_data.tar.gz filter=lfs diff=lfs merge=lfs -text
+Combined_data.tar.gz.splitb filter=lfs diff=lfs merge=lfs -text
+Combined_data.tar.gz.splitc filter=lfs diff=lfs merge=lfs -text
+NH_data.tar.gz filter=lfs diff=lfs merge=lfs -text
+Combined_data.tar.gz.splita filter=lfs diff=lfs merge=lfs -text
+OH_data.tar.gz filter=lfs diff=lfs merge=lfs -text
