@@ -1,8 +1,8 @@
 # DOSnet
 
-Updated 11/19/2020 - Victor Fung
+Updated 11/19/2020 - By Victor Fung
 
-This repo provides the code to run DOSnet, as detailed in the manuscript: Machine Learned Features from Density of States for Accurate Adsorption Energy Prediction. [1] 
+This repo provides the code to run DOSnet, as detailed in the manuscript: Machine Learned Features from Density of States for Accurate Adsorption Energy Prediction. [1] DOSnet is a machine learning model which takes density of states as inputs to predict a targeted property such as adsorption energies. 
 
 **Introduction:**
 
@@ -30,10 +30,18 @@ Output will be written to txt files as "predict_test.txt" or "predict_train.txt"
 
 **Notes:**
 
-Model weights can be saved and loaded for transfer learning. A saved model is provided here as "DOSnet_saved.h5" which has been trained on approx. 37000 adsorption energies from Mamun et al. [2] Alternatively, they can be re-generated using the provided code and the "Combined_data" file containing the training data used.
+1. For user generated training data, please note the data format for the ML input used here: \
+-The surface and adsorbate DOS is saved as numpy arrays with shape (A, B, C) where A is number of samples, B is length of DOS file (2000 in the example), and C is number of channels.\
+-Number of channels here is 27 for x_surface_dos which contains 9 orbitals x up to 3 adsorbing surface atoms. E.g. a top site will have the first 9 channels filled and remaining as zeros. This can be changed to individual specifications. \
 
-For any additional questions please contact Victor Fung at fungv(at)ornl.gov
+2. The code can run on CPU or GPU depending on which resources are available and visible. If a GPU is available, it should be used automatically, but for more details consult the Keras documentation.
+
+3. Model weights can be saved and loaded for transfer learning. A saved model is provided here as "DOSnet_saved.h5" which has been trained on approx. 37000 adsorption energies from Mamun et al. [2] Alternatively, they can be re-generated using the provided code and the "Combined_data" file containing the training data used.
+
+4. Pytorch implementation forthcoming.
+
+5. For any additional questions please contact Victor Fung at fungv(at)ornl.gov
 
 **References:**
-[1] : TBD
+[1] : TBD \
 [2] : Mamun, O., Winther, K.T., Boes, J.R. et al. High-throughput calculations of catalytic properties of bimetallic alloy surfaces. Sci Data 6, 76 (2019).
