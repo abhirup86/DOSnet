@@ -93,7 +93,6 @@ def main():
 
     if args.seed == 0:
         args.seed = np.random.randint(1, 1e6)
-    args.split_ratio = 0.2
 
     if args.run_mode == 0:
         run_training(args, x_surface_dos, x_adsorbate_dos, y_targets)
