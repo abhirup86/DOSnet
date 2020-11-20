@@ -21,7 +21,7 @@ or for the combined data: \
 cat Combined_data.tar.gz.split* > Combined_data.tar.gz \
 tar -xvf Combined_data.tar.gz
 
-3. Run DOSnet:\
+3. Run DOSnet: \
 python Main.py \
 Example: \
 python Main.py --multi_adsorbate=1 --data_dir='Combined_data' --save_model=1 --batch_size=128
