@@ -42,6 +42,6 @@ Output will be written to txt files as "predict_test.txt" or "predict_train.txt"
 
 5. For any additional questions please contact Victor Fung at fungv(at)ornl.gov
 
-**References:**
+**References:** \
 [1] : TBD \
 [2] : Mamun, O., Winther, K.T., Boes, J.R. et al. High-throughput calculations of catalytic properties of bimetallic alloy surfaces. Sci Data 6, 76 (2019).
