@@ -58,7 +58,7 @@ parser.add_argument(
     "--batch_size", default=32, type=int, help="batch size (default:32)"
 )
 parser.add_argument(
-    "--channels", default=9, type=float, help="number of channels (default: 9)"
+    "--channels", default=9, type=int, help="number of channels (default: 9)"
 )
 parser.add_argument(
     "--seed",
