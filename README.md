@@ -43,5 +43,5 @@ Output will be written to txt files as "predict_test.txt" or "predict_train.txt"
 5. For any additional questions please contact Victor Fung at fungv(at)ornl.gov
 
 **References:** \
-[1] : TBD \
+[1] : Fung, V., Hu, G., Ganesh, P. et al. Machine learned features from density of states for accurate adsorption energy prediction. Nat Commun 12, 88 (2021) link: https://www.nature.com/articles/s41467-020-20342-6
 [2] : Mamun, O., Winther, K.T., Boes, J.R. et al. High-throughput calculations of catalytic properties of bimetallic alloy surfaces. Sci Data 6, 76 (2019).
